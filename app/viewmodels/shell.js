@@ -1,4 +1,6 @@
 ﻿define(['plugins/router', 'durandal/app'], function (router, app) {
+	'use strict';
+
 	function Shell(){
 		this.router = router;
 		this.searchPhrase = '';
@@ -13,7 +15,7 @@
 	function activate(){
 		this.router.map([
 			{ route: '', title:'Welcome', moduleId: 'viewmodels/welcome', nav: true },
-			{ route: 'flickr', moduleId: 'viewmodels/flickr', nav: true }
+			{ route: 'solve', title: 'Solve', moduleId: 'viewmodels/solve', nav: true }
 		]).buildNavigationModel();
 		
 		return this.router.activate();
