@@ -3,7 +3,7 @@ define(['model/sudoku/game'], function(Game) {
 	
 	var predefined = [];
 	
-	predefined[0] = new Game();
+	predefined[0] = new Game('Empty');
 	
 	return predefined;
 });

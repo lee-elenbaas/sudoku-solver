@@ -5,7 +5,8 @@
 	</head>
 	<body>
 		<section>
-			<h2 data-bind="html:type"></h2>
+			<h2><span data-bind="html:game.name"></span> (<span data-bind="html:game.type"></span>)</h2>
+			<div data-bind="compose: game.board"></div>
 		</section>
 	</body>
 </html>
