@@ -1,4 +1,4 @@
-define(['model/sudoku/predefined'], function(predefined) {
+define(['./sudoku/predefined'], function(predefined) {
 	'use strict';
 	
 	var game = predefined[0];

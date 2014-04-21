@@ -1,4 +1,4 @@
-define(['model/common/game', 'model/common/cell-group'], function(Base, CellGroup) {
+define(['../common/game', '../common/cell-group'], function(Base, CellGroup) {
 	'use strict';
 	
 	function Game(name) {

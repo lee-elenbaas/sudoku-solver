@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game view</title>
+	</head>
+	<body>
+		<section>
+			<h2><span data-bind="html:name"></span> (<span data-bind="html:type"></span>)</h2>
+			<table>
+				<tbody data-bind="foreach: board">
+					<tr data-bind="foreach: $data">
+						<td data-bind="compose: $data"></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</body>
+</html>
