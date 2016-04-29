@@ -1,7 +1,7 @@
 Sudoku-solver
 =============
 
-A sudoku and similar games solver in Durandal JS
+A sudoku and similar games solver using JS
 
 The board is a grid that define how to present the cells - it also defines the possible alphabet to be used in all cells in the grid (this limit the options for the solution)
 
